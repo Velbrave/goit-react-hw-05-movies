@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/922.4d22a6b6.chunk.css","mappings":"AAAA,mBACE,gBACF,CAEA,mBACE,UACF","sources":["pages/home/Home.module.css"],"sourcesContent":[".Title {\n  margin-left: 10px;\n}\n\n.Link {\n  color: blue;\n}\n"],"names":[],"sourceRoot":""}
