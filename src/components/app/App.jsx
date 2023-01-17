@@ -18,10 +18,21 @@ const App = () => {
     <div>
       <header className={css.Header}>
         <nav>
-          <NavLink to="/" className={css.Navlink}>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? css.LinkActive : css.Navlink
+            }
+          >
             Home
           </NavLink>
-          <NavLink to="/movies" className={css.Navlink}>
+          <NavLink
+            to="/movies"
+            className={({ isActive }) =>
+              isActive ? css.LinkActive : css.Navlink
+            }
+          >
+            {' '}
             Movies
           </NavLink>
         </nav>

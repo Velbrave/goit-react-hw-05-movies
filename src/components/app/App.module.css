@@ -15,7 +15,14 @@
   transition: all 0.3s;
 }
 
-.Navlink:active {
+.LinkActive {
+  display: inline-flex;
+  padding: 20px;
+  border-bottom: 2px solid transparent;
+  font-size: 22px;
+  margin-right: 15px;
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
   color: red;
-  border-bottom-color: red;
 }
