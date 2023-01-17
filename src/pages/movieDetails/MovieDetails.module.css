@@ -1,0 +1,46 @@
+.Link {
+  display: block;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+.FilmDetails {
+  display: flex;
+}
+.Image {
+  width: 400px;
+  height: 300px;
+}
+.Container {
+  margin-left: 20px;
+}
+.Overview {
+  display: grid;
+}
+
+.Genres {
+  margin-bottom: 0px;
+}
+.Name {
+  display: flex;
+  column-gap: 10px;
+}
+.Title {
+  margin-bottom: 15px;
+}
+.Inform {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.AddInform {
+  margin-left: 10px;
+}
+
+.Button {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}

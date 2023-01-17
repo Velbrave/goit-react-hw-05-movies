@@ -1,0 +1,15 @@
+.Image {
+  width: 200px;
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.Name {
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.Character {
+  margin-left: 30px;
+}
