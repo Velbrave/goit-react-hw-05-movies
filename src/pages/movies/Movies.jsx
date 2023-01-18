@@ -1,4 +1,4 @@
-import Searchbar from 'components/SearchBar/Searchbar';
+import Searchbar from 'components/earchBared/Searchbar';
 import { useEffect, useState } from 'react';
 import { Link, useLocation, useSearchParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
