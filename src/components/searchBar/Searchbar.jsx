@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import css from '../searchBar/SearchBar.module.css';
+import css from '../SearchBar/SearchBar.module.css';
 import PropTypes from 'prop-types';
 import { toast } from 'react-toastify';
 

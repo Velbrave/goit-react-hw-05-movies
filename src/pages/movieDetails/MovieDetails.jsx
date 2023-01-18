@@ -1,13 +1,10 @@
-import { lazy, Suspense } from 'react';
+import { Suspense } from 'react';
 import { useEffect, useState } from 'react';
 import pexels from '../../image/pexels.jpg';
 import PropTypes from 'prop-types';
-import { Link, Route, Routes, useLocation, useParams } from 'react-router-dom';
+import { Link, Outlet, useLocation, useParams } from 'react-router-dom';
 import { getPostDetails } from 'services/api-moviesDetails';
 import css from '../movieDetails/MovieDetails.module.css';
-
-const Cast = lazy(() => import('pages/cast/Cast'));
-const Reviews = lazy(() => import('pages/reviews/Reviews'));
 
 const MovieDetails = () => {
   const [filmsDetails, setFilmsDetails] = useState(null);
@@ -96,14 +93,7 @@ const MovieDetails = () => {
         </ul>
       </div>
       <Suspense fallback={<p>Loading...</p>}>
-        <Routes>
-          <Route path="cast" element={<Cast />} />
-        </Routes>
-      </Suspense>
-      <Suspense fallback={<p>Loading...</p>}>
-        <Routes>
-          <Route path="reviews" element={<Reviews />} />
-        </Routes>
+        <Outlet />
       </Suspense>
     </div>
   );

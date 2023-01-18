@@ -1,6 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { NavLink, Route, Routes } from 'react-router-dom';
-import css from '../app/App.module.css';
+import css from '../App/App.module.css';
 
 const Movies = lazy(() => import('../../pages/movies/Movies'));
 const MovieDetails = lazy(() =>
